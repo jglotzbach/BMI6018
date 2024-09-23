@@ -1,0 +1,39 @@
+# Boolean
+# boolean True + boolean True - boolean False = ?
+print (True + True - False)
+
+# Logical Tracker
+# logical tracker = True
+# logical tracker = logical tracker & logical tracker
+# logical tracker = logical tracker | (logical tracker - logical tracker)
+# logical tracker = ?
+l = True
+l = l and l
+print(l)
+l = l | (l - l)
+print(l)
+
+#string
+string = "E.COli"
+print(string[2])
+
+#string2
+string = "I Bove python"
+string[2]="L"
+print(string)
+
+#operators
+x = 4
+y = 5
+print(type(x))
+print(type(y))
+print(x + y)
+
+a = 'sunny_'
+b = 'day'
+print(type(a))
+print(type(b))
+print(a + b)
+
+#string3
+print('7' + '3')
